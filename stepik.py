@@ -5,14 +5,14 @@ d1 = {}
 c = set()
 # b = '[{"name": "B", "parents": ["A", "C"]}, {"name": "C", "parents": ["A"]}, {"name": "A", "parents": []}, {"name": "D", "parents":["C", "F"]}, {"name": "E", "parents":["D"]}, {"name": "F", "parents":[]}]'
 a1 = '[{"name": "A", "parents": []}, {"name": "B", "parents": ["A", "C"]}, {"name": "C", "parents": ["A"]}]'
-di = '[{"name": "A", "parents": ["B", "C", "D"]},{"name": "E", "parents": ["F", "G"]},' \
-     '{"name": "I", "parents": ["E", "F", "Y", "D", "G"]},{"name": "B", "parents": ["I", "Y", "D", "G"]},' \
-     '{"name": "F", "parents": ["D", "Z"]},{"name": "C", "parents": ["Y", "G", "Z"]},{"name": "Y", "parents": []},' \
-     '{"name": "D", "parents": []},{"name": "G", "parents": ["Y", "D"]},{"name": "Z", "parents": ["D", "G"]}]'
-strings = '[{"name": "dfgre", "parents": ["gsdfgre"]},' \
-          ' {"name": "hsdgreg", "parents": ["dfgre", "gsd"]},' \
-          ' {"name": "gsd", "parents": ["dfgre"]},' \
-          ' {"name": "gsdfgre", "parents": []}] '
+# di = '[{"name": "A", "parents": ["B", "C", "D"]},{"name": "E", "parents": ["F", "G"]},' \
+#     '{"name": "I", "parents": ["E", "F", "Y", "D", "G"]},{"name": "B", "parents": ["I", "Y", "D", "G"]},' \
+#    '{"name": "F", "parents": ["D", "Z"]},{"name": "C", "parents": ["Y", "G", "Z"]},{"name": "Y", "parents": []},' \
+#     '{"name": "D", "parents": []},{"name": "G", "parents": ["Y", "D"]},{"name": "Z", "parents": ["D", "G"]}]'
+# strings = '[{"name": "dfgre", "parents": ["gsdfgre"]},' \
+#         ' {"name": "hsdgreg", "parents": ["dfgre", "gsd"]},' \
+#        ' {"name": "gsd", "parents": ["dfgre"]},'
+#' {"name": "gsdfgre", "parents": []}] '
 
 
 def predok(mass):
