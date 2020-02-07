@@ -9,14 +9,14 @@ pip install -r requirements.txt
 ## Use
 the program has a console and graphical version.
 To use the console version of the program, type:
-`` ``
+````
 	sh-5.0 $ python3.7 grafic.py
 	usage: grafic.py [-h] [-link LINK]
 
 	optional arguments:
 	-h, --help show this help message and exit
 	-link LINK Enter link to file from list families
-`` ``
+````
 That is: if there is a -link switch and the path to the file with the list behind it, then it processes it and writes the result to the report.xlsx file.
 If it is not, then the graphical version of the program is launched.
 An additional condition: on weekdays, there should be 15 people, and on weekends - 22 people.
