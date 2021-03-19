@@ -4,7 +4,7 @@ openpyxl==3.0.2
 pandas==0.25.3
 parsel==1.5.2
 pathtools==0.1.2
-Pillow==6.2.1
+Pillow==8.1.1
 pipenv==2018.11.26
 pyOpenSSL==19.0.0
 PyQt5==5.13.1
